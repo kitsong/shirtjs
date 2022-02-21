@@ -1,5 +1,5 @@
 {
-  "name": "shirt-cli",
+  "name": "@shirtjs/shirt-cli",
   "version": "0.0.1-alpha.0",
   "description": "> TODO: description",
   "author": "kitsong <464121657@qq.com>",
