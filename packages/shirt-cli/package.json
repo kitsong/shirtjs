@@ -1,6 +1,6 @@
 {
   "name": "@shirtjs/cli",
-  "version": "0.0.6-alpha.0",
+  "version": "0.0.7-alpha.0",
   "description": "cli tool for shirt",
   "author": "kitsong",
   "license": "MIT",
@@ -27,8 +27,6 @@
   },
   "bugs": {
     "url": "https://github.com/kitsong/shirtjs/issues"
-  },
-  "devDependencies": {
   },
   "dependencies": {
     "cac": "^6.7.12"
