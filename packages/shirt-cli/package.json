@@ -6,6 +6,9 @@
   "homepage": "https://github.com/kitsong/shirtjs#readme",
   "license": "MIT",
   "main": "dist/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "shirt": "bin/shirt"
   },
@@ -35,5 +38,5 @@
   "dependencies": {
     "cac": "^6.7.12"
   },
-  "gitHead": "abc769f684e6d5498b7e99cb16150d798405d0dc"
+  "gitHead": "5781032477ba4be2ea22a51dd175d60269ca0eff"
 }
