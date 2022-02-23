@@ -1,9 +1,8 @@
 {
   "name": "@shirtjs/cli",
   "version": "0.0.6-alpha.0",
-  "description": "> TODO: description",
-  "author": "kitsong <464121657@qq.com>",
-  "homepage": "https://github.com/kitsong/shirtjs#readme",
+  "description": "cli tool for shirt",
+  "author": "kitsong",
   "license": "MIT",
   "main": "dist/index.js",
   "publishConfig": {
@@ -12,12 +11,10 @@
   "bin": {
     "shirt": "bin/shirt"
   },
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
   "files": [
-    "lib"
+    "bin",
+    "__tests__",
+    "dist"
   ],
   "repository": {
     "type": "git",
@@ -32,8 +29,6 @@
     "url": "https://github.com/kitsong/shirtjs/issues"
   },
   "devDependencies": {
-    "rollup-plugin-typescript2": "^0.31.2",
-    "typescript": "^4.5.5"
   },
   "dependencies": {
     "cac": "^6.7.12"
