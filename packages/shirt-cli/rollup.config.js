@@ -11,7 +11,7 @@ const comileConfig = {
   input: path.join(cwd, 'src/index.ts'),
   output: {
     file: path.join(cwd, 'dist/index.js'),
-    format: 'esm', // esm: es6模块系统 cjs: node模块系统
+    format: 'cjs', // esm: es6模块系统 cjs: node模块系统
     // sourcemap: true,
     exports: 'named',
   },

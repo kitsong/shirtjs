@@ -1,4 +1,6 @@
-import { cac } from 'cac';
+'use strict';
+
+var cac = require('cac');
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation.
@@ -25,7 +27,7 @@ function __awaiter(thisArg, _arguments, P, generator) {
     });
 }
 
-const cli = cac('shirt');
+const cli = cac.cac('shirt');
 cli.command('init <name>', 'Init a project with default templete').action((name) => __awaiter(void 0, void 0, void 0, function* () {
     console.log(name);
 }));
