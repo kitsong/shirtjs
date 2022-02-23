@@ -1,7 +1,7 @@
-'use strict';
+'use strict'
 
-module.exports = shirtCli;
+module.exports = shirtCli
 
 function shirtCli() {
-    // TODO
+  // TODO2
 }
