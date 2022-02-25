@@ -1,10 +1,11 @@
 import typescript from 'rollup-plugin-typescript2'
+import json from '@rollup/plugin-json'
 import * as path from 'path'
 
 const cwd = __dirname
 
 const baseConfig = {
-  plugins: [typescript()],
+  plugins: [typescript(), json()],
 }
 
 const comileConfig = {

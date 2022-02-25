@@ -5,3 +5,4 @@ function start() {
 }
 
 start()
+console.log('2')
